@@ -1,0 +1,9 @@
+def create_greeting(name: str, surname: str) -> str:
+    greeting = "Cześć {} {}".format(name, surname)
+    return greeting
+
+name = "Kinga"
+surname = "Kowalska"
+result = create_greeting(name, surname)
+
+print(result)
